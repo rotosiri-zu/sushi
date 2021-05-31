@@ -18,7 +18,6 @@ class User
         puts "1個以上選んでください。"
       elsif @quantity_of_product >= 5
         puts "一度に注文出来るのは4個までです。"
-        redo
       else
         break  
       end
